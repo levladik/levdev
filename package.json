@@ -4,8 +4,15 @@
   "description": "portfolio website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass --watch scss:assets/css"
   },
   "author": "Levladik",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "autoprefixer": "^10.4.19",
+    "bootstrap": "^5.3.3",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.77.7"
+  }
 }
